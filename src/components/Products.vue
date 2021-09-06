@@ -1,5 +1,8 @@
 !<template>
-  <section id="products">
+  <section
+    id="products"
+    class="d-flex justify-content-center align-items-center"
+  >
     <h3>--> Content goes here</h3>
   </section>
 </template>

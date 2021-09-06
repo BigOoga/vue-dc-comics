@@ -1,6 +1,8 @@
 <template>
-  <div id="services">
-    --> Content goes here
+  <div id="services" class="d-flex justify-content-center align-items-center">
+    <div class="container">
+      --> Content goes here
+    </div>
   </div>
 </template>
 
@@ -9,5 +11,6 @@ export default {};
 </script>
 
 <style lang="scss">
-@import "@/assets/scss/_services.scss";
+@import "@/assets/scss/_generics.scss";
+@import "@/assets/scss/style.scss";
 </style>

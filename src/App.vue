@@ -3,6 +3,8 @@
     <Header />
     <Products />
     <Services />
+    <Footer />
+    <BottomFooter />
   </div>
 </template>
 
@@ -10,12 +12,16 @@
 import Header from "@/components/Header.vue";
 import Products from "@/components/Products.vue";
 import Services from "@/components/Services.vue";
+import Footer from "@/components/Footer.vue";
+import BottomFooter from "@/components/BottomFooter.vue";
 export default {
   name: "App",
   components: {
     Header,
     Products,
     Services,
+    Footer,
+    BottomFooter,
   },
 };
 </script>

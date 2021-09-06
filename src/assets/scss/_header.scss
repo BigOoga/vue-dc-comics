@@ -4,19 +4,19 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
 
-ul li {
-  display: inline-block;
+  ul li {
+    display: inline-block;
 
-  a {
-    padding: 30px 10px;
-    text-decoration: none;
-    color: black;
+    a {
+      padding: 30px 10px;
+      text-decoration: none;
+      color: black;
 
-    &.active,
-    &:hover {
-      border-bottom: 3px solid $dc-blue;
+      &.active,
+      &:hover {
+        border-bottom: 3px solid $dc-blue;
+      }
     }
   }
 }
