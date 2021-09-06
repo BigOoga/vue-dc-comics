@@ -7,7 +7,9 @@
     <nav>
       <ul>
         <li v-for="(link, index) in links" :key="index">
-          <a :href="link.url"> {{ link.text }}</a>
+          <a :href="link.url" :class="[link.current ? 'active' : '']">
+            {{ link.text }}</a
+          >
         </li>
       </ul>
     </nav>
@@ -76,7 +78,6 @@ export default {
 };
 </script>
 
-<style>
-nav ul li {
-}
+<style lang="scss">
+@import "@/assets/scss/_header.scss";
 </style>
