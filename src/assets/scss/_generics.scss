@@ -1,5 +1,15 @@
+@import "vars";
+
 * {
   margin: 0;
+}
+
+.text-blue {
+  color: $dc-blue !important;
+}
+
+.text-white {
+  color: white;
 }
 
 .container {

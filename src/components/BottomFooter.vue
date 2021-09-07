@@ -4,7 +4,9 @@
       <div class="btn-signup text-uppercase">Sign up now!</div>
       <div class="links">
         <ul>
-          <li><a class="fs-2" href="">Follow us</a></li>
+          <li>
+            <a class="fs-2 text-blue text-uppercase" href="">Follow us</a>
+          </li>
           <li>
             <a href=""><img src="@/assets/img/footer-facebook.png" alt=""/></a>
           </li>
@@ -33,5 +35,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import "@/assets/scss/_bottom-footer.scss";
+@import "@/assets/scss/style.scss";
 </style>
