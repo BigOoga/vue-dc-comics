@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 .container {
   margin-left: 10%;
   margin-right: 10%;
@@ -19,4 +23,8 @@
 
 .align-items-center {
   align-items: center;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
 }

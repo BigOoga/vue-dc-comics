@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <div class="container">
+    <div class="container d-flex">
       <div class="container30 d-flex">
         <div>
           <h2>DC Comics</h2>
