@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Header />
+    <Jumbotron />
     <Products />
     <Services />
     <Footer />
@@ -14,6 +15,7 @@ import Products from "@/components/Products.vue";
 import Services from "@/components/Services.vue";
 import Footer from "@/components/Footer.vue";
 import BottomFooter from "@/components/BottomFooter.vue";
+import Jumbotron from "./components/Jumbotron.vue";
 export default {
   name: "App",
   components: {
@@ -22,6 +24,7 @@ export default {
     Services,
     Footer,
     BottomFooter,
+    Jumbotron,
   },
 };
 </script>

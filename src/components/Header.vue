@@ -1,4 +1,4 @@
-!<template>
+<template>
   <header>
     <div id="logo">
       <img src="@/assets/img/dc-logo.png" alt="Logo" />

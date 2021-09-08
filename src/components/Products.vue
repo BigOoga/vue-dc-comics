@@ -1,10 +1,12 @@
 !<template>
-  <section
-    id="products"
-    class="d-flex justify-content-center align-items-center flex-wrap"
-  >
-    <div v-for="(comic, index) in comics" :key="index">
-      <ComicCard :src="comic.thumb" :title="comic.series" />
+  <section id="products">
+    <div
+      class="container d-flex justify-content-center align-items-center flex-wrap"
+    >
+      <div class="product-label fs-3 text-uppercase">Current Series</div>
+      <div v-for="(comic, index) in comics" :key="index">
+        <ComicCard :src="comic.thumb" :title="comic.series" />
+      </div>
     </div>
   </section>
 </template>
@@ -110,8 +112,23 @@ export default {
 </script>
 
 <style lang="scss">
+@import "@/assets/scss/_vars.scss";
+
 #products {
   background-color: #1c1c1c;
   color: white;
+
+  .container {
+    position: relative;
+  }
+}
+
+.product-label {
+  position: absolute;
+  top: 0;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  background-color: $dc-blue;
+  padding: 6px 15px;
 }
 </style>

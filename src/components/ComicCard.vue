@@ -1,7 +1,7 @@
 <template>
   <div
     class="
-  comic-card px-3 py-3"
+  comic-card px-3 py-3 my-5"
   >
     <img :src="src" alt="" />
     <h4>{{ title }}</h4>
