@@ -3,15 +3,17 @@
     class="
   comic-card px-3 py-3 my-5"
   >
-    <img :src="src" alt="" />
-    <h4>{{ title }}</h4>
+    <img :src="card.thumb" alt="" />
+    <h4>{{ card.series }}</h4>
   </div>
 </template>
 
 <script>
 export default {
   name: "ComicCard",
-  props: ["src", "title"],
+  props: {
+    card: Object,
+  },
 };
 </script>
 
@@ -25,5 +27,6 @@ img {
 
 .comic-card {
   max-width: 200px;
+  height: calc(200px + 36px);
 }
 </style>

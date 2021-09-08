@@ -5,7 +5,7 @@
     >
       <div class="product-label fs-3 text-uppercase">Current Series</div>
       <div v-for="(comic, index) in comics" :key="index">
-        <ComicCard :src="comic.thumb" :title="comic.series" />
+        <ComicCard :card="comic" />
       </div>
     </div>
   </section>
