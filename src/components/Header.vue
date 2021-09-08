@@ -7,7 +7,11 @@
     <nav>
       <ul>
         <li v-for="(link, index) in links" :key="index">
-          <a :href="link.url" :class="[link.current ? 'active' : '']">
+          <a
+            :href="link.url"
+            :class="[link.current ? 'active' : '']"
+            class="font-weight-bold"
+          >
             {{ link.text }}</a
           >
         </li>
